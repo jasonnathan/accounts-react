@@ -1,19 +1,20 @@
 Package.describe({
-  name: 'meteoreact:accounts',
-  summary: 'Simple and intuative accounts view layer with react, forked from royGil',
-  version: '1.2.4',
+  name: 'bmartin1134:accounts-react',
+  summary: 'Simple and intuative accounts view layer with react',
+  version: '1.2.6',
   documentation: 'README.md',
-  git: 'https://github.com/bmartin/accounts-react'
+  git: 'https://github.com/royGil/accounts-react'
 })
 
 Package.onUse(api => {
-  api.versionsFrom('1.6.1')
+  api.versionsFrom('1.11.1')
 
   api.use([
     'ecmascript',
     'accounts-base',
     'accounts-password',
-    'mdg:validated-method@2.1.2',
+    'mdg:validated-method@1.2.0',
+
     'check'
   ], ['client', 'server'])
 
@@ -30,10 +31,10 @@ Package.onTest(api => {
     'ecmascript',
     'accounts-base',
     'accounts-password',
-    'meteoreact:accounts',
+    'bmartin1134:accounts-react',
     'meteoreact:accounts-unstyled',
-    'mdg:validated-method@1.1.0',
-    'react-meteor-data@0.2.16',
+    'mdg:validated-method@1.2.0',
+    'react-meteor-data@2.1.2',
     'cultofcoders:mocha'
   ])
 

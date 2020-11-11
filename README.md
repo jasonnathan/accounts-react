@@ -4,7 +4,7 @@
 
 `meteor add meteoreact:accounts`
 
-**Forked from royGil/accounts-react. Updated react-meteor-data to current. A huge credit goes to the [`useraccounts`](https://github.com/meteor-useraccounts/core) package and the people behind it.**
+**A huge credit goes to the [`useraccounts`](https://github.com/meteor-useraccounts/core) package and the people behind it.**
 
 This package has been created to be used in one of my projects which was purely React.
 Although the original useraccounts package [can be used](https://www.meteor.com/tutorials/react/adding-user-accounts) in react, it depends on blaze and jquery which are both useless when developing with react.
