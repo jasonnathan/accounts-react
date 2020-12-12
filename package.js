@@ -7,7 +7,7 @@ Package.describe({
 })
 
 Package.onUse(api => {
-  api.versionsFrom('1.11.1')
+  api.versionsFrom('1.12')
 
   api.use([
     'ecmascript',
@@ -18,7 +18,7 @@ Package.onUse(api => {
     'check'
   ], ['client', 'server'])
 
-  api.use('react-meteor-data@2.1.2', 'client')
+  api.use('react-meteor-data@2.1.4', 'client')
 
   api.use('service-configuration', { weak: true })
   api.use('http', 'server')
@@ -34,7 +34,7 @@ Package.onTest(api => {
     'bmartin1134:accounts-react',
     'meteoreact:accounts-unstyled',
     'mdg:validated-method@1.2.0',
-    'react-meteor-data@2.1.2',
+    'react-meteor-data@2.1.4',
     'cultofcoders:mocha'
   ])
 
