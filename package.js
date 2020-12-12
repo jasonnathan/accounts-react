@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'bmartin1134:accounts-react',
+  name: 'jasonnathan:accounts-react',
   summary: 'Simple and intuative accounts view layer with react',
   version: '1.2.6',
   documentation: 'README.md',
